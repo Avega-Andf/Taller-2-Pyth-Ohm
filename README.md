@@ -32,6 +32,7 @@ if __name__ == "__main__":
 ```
 </p></details></br>
 
+
   + Para este codigo, el numero ingresado se vuelven una cadena de caracteres, y por cada caracter del numero, se ingresa a una lista, teniendo asi una la lista de los digitos separados por comas del numero 
 
 ### 2. Desarrollar un programa que ingrese un número flotante n y separe su parte entera de la parte decimal, y luego entrege los digitos tanto de la parte entera como de la decimal.
@@ -862,5 +863,9 @@ else:
 
 ```
 </p></details></br>
-
++ Este código verifica si una matriz cuadrada es mágica, es decir, si la suma de cada una de sus filas, columnas y diagonales es igual.
++ Primero se define la función matriz_magic()
++ Para verificar si la matriz es mágica, se calcula la suma de las diagonales y se compara. Si no son iguales, la matriz no es mágica y se devuelve False. 
++ Luego, para cada fila, columna y diagonal se calcula su suma y se compara con la suma de las diagonales. Si alguna suma es diferente, la matriz no es mágica y se devuelve False. Si todas las sumas son iguales, la matriz es mágica y se devuelve True.
++ En la funcion main, se solicita al usuario que ingrese los valores de la matriz y los almacena. Luego, muestra la matriz ingresada y llama a la función matriz_magic() para verificar si es mágica o no. Finalmente, muestra el resultado.
 
